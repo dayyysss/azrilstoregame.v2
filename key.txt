@@ -1,6 +1,0 @@
-supabase password
-testiGold123!
-
-user : 
-daynibos@gmail.com
-apacoba123
