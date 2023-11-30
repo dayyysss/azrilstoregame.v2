@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-limit {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+  .text-limit.limit-1 {
+    -webkit-line-clamp: 1;
+  }
+  .text-limit.limit-2 {
+    -webkit-line-clamp: 2;
+  }
+  .text-limit.limit-3 {
+    -webkit-line-clamp: 3;
+  }
+  .text-limit.limit-4 {
+    -webkit-line-clamp: 4;
+  }
+  .text-limit.limit-5 {
+    -webkit-line-clamp: 5;
+  }
